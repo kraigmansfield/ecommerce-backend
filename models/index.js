@@ -9,9 +9,11 @@ Product.belongsTo(Category, {
   foreignKey: 'category_id',
 });
 
+Category.hasMany(Product);
 // Categories have many Products
 Product.hasMany(Product, {
   foreignKey: 'category_id',
+  onDelete:"SET NULL"
 });
 
 
