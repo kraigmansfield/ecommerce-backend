@@ -28,7 +28,8 @@ DB_PASSWORD=
 DB_USER=root
 
 
-## Usage
+## Walkthrough Video
+https://drive.google.com/file/d/1KQS4i1Bf_LJG714wXIcb8Z2RiFn_pOsO/view
 
 
 
